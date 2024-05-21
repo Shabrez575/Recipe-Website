@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: none;
+  background-color: #e59e9e;
+}
+
+/* Navbar  */
+.navContainer {
+  width: 100vw;
+  /* background-color: #100f0f; */
+  background-color: #000000;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#navList {
+  list-style: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  overflow-x: none;
+}
+
+#navLogo {
+  font-size: 2rem;
+  color: white;
+}
+
+.navItem {
+  margin-top: 12px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 5px;
+  font-size: 1rem;
+}
+
+/* Main */
+.itemContainer {
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.foodItem {
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Footer  */
+.footerContainer {
+  width: 100vw;
+  height: 40px;
+  background-color: #0b0909;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
